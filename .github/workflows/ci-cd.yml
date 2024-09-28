@@ -46,4 +46,4 @@ jobs:
 
         env:
           DJANGO_SETTINGS_MODULE: backend.settings  # Point to the correct settings module
-        working-directory: backend  # Ensure working directory is set
+       
