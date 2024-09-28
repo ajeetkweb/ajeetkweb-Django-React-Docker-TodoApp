@@ -39,7 +39,7 @@ jobs:
       # Run unit tests
       - name: Run tests
         run: |
-          ls
+          
           python manage.py test
 
-       
+        working-directory: backend 
