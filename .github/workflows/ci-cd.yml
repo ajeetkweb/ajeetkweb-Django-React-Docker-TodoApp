@@ -34,11 +34,13 @@ jobs:
           cd backend
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+        
+        working-directory: backend
 
       # Run unit tests
       - name: Run tests
         run: |
-          
+          ls
           python manage.py test
 
         working-directory: backend 
