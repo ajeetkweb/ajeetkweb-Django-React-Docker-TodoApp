@@ -38,5 +38,6 @@ jobs:
       # Run unit tests
       - name: Run tests
         run: |
-          ls
+          
+          cd backend
           python manage.py test
