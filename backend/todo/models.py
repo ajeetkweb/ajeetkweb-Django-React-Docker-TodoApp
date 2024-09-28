@@ -9,3 +9,6 @@ class Todo(models.Model):
 
     def _str_(self):
         return self.title
+    
+    def getTitle(self):
+        return self.title

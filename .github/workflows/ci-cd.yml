@@ -38,4 +38,5 @@ jobs:
       # Run unit tests
       - name: Run tests
         run: |
-          pytest tests/
+          cd backend
+          python manage.py test
